@@ -1,5 +1,5 @@
 #!/bin/bash
-#********GLOBAL variables**********
+#********GLOBAL variables*********
 TESTSIGMA_API_KEY=$TESTSIGMA_API_KEY
 TESTSIGMA_PROJECT_ID=17
 TESTIGMA_APPLICATION_ID=39
@@ -63,7 +63,7 @@ else
   echo "$UPLOAD_ID_RESULT"
 fi
 
-EXITCODE=0
+EXITCODE=1
 
 # Check status and response body
 if [ ! $HTTP_STATUS -eq 200  ]; then
